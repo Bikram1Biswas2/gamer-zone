@@ -76,8 +76,9 @@ background: rgba(11, 2, 35, 0.10);
     height: 350px;
     margin-bottom: 60px;
     margin-top: 50px;
-  
-    
+}
+.goat-about h1,p{
+    color: #534C64;
 }
 .goat-description{
  width: 40%;
@@ -88,11 +89,12 @@ background: rgba(11, 2, 35, 0.10);
 
 }
 .btn-primary{
-    font-size: 20px;
+    font-size: 15px;
     padding: 6px 15px;
     border-radius: 48px;
     gap: 10px;
     border: 0;
+    color: #FFF;
 }
 #sign-in{
     background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
@@ -228,6 +230,9 @@ font-size: 14px;
     text-align:right ;
 
 }
+.play-para{
+    color: #534C64;
+}
 .play-img-one{
     width: 300px;
     height: 300px;
@@ -242,14 +247,64 @@ font-size: 14px;
 .play-img-container{
     width: 400px;
     padding-left: 60px;
-    border: 1px solid red;
     position: relative;
 }
 .play-description-title{
     font-size: 28px;
 }
-
-
+/* game items start */
+.game-items-container{
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-items{
+    border: 1px solid red;
+}
+.game-items-first{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid blue;
+    text-align: center;
+}
+.game-items-second{
+    display: flex;
+    justify-content: space-around;
+  border: 3px solid greenyellow;
+}
+.item-description{
+    display: flex;
+}
+/* footer */
+.footer{
+    background-color: #1f193152;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px 270px;
+}
+.footer-logo{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.footer-condition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.small{
+    margin-left: 400px;
+}
+.total-footer{
+    padding: 70px 70px;
+    margin: 25px;
+}
 
 
 
@@ -306,7 +361,6 @@ font-size: 14px;
     }
     .box{
         flex-direction: column;
-        border: 4px solid red;
         height: 1000px;
         width: 160px;
         gap: 30px;
@@ -325,11 +379,4 @@ font-size: 14px;
         font-size: 12px;
         text-align: center;
     }
-    .box-container{
-        border: 2px solid greenyellow;
-    }
-    .parent-box-container{
-        border: 2px solid blue;    
-    }
-    
 }
