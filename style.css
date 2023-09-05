@@ -296,7 +296,9 @@ font-size: 14px;
     gap: 20px;
 }
 .small{
-    margin-left: 400px;
+    margin-left: 350px;
+    justify-content: center;
+    text-align: center;
 }
 .total-footer{
     padding: 70px 70px;
